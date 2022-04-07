@@ -7,7 +7,7 @@ public class PersonBuilder {
 
 
     public PersonBuilder setName(String name) {
-        this.name =name;
+        this.name = name;
         return this;
     }
 

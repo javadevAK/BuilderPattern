@@ -44,7 +44,8 @@ public class Person {
     }
 
     public int getAge() {
-        if (!hasAge()) { }
+        if (!hasAge()) {
+        }
         return age;
     }
 
@@ -66,10 +67,10 @@ public class Person {
     }
 
     public PersonBuilder newChildBuilder(int age) {
-         return new PersonBuilder()
-                 .setSurname(getSurname())
-                 .setAddress(getAddress())
-                 .setAge(age);
+        return new PersonBuilder()
+                .setSurname(getSurname())
+                .setAddress(getAddress())
+                .setAge(age);
     }
 
 
