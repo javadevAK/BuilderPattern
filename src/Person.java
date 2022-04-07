@@ -45,6 +45,7 @@ public class Person {
 
     public int getAge() {
         if (!hasAge()) {
+            throw new IllegalArgumentException("Не указан возраст!");
         }
         return age;
     }
